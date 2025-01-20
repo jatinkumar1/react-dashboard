@@ -40,7 +40,7 @@ export default function Sidebar() {
     ];
 
     return (
-        <aside className={`${close ? "w-16" : "w-64"} w-16 lg:w-64 md:w-64 transition-width duration-200`}>
+        <aside className={`w-16 lg:w-64 md:w-64 transition-width duration-200`}>
             
             <nav className='sticky top-0 h-screen flex flex-col border-r shadow-sm bg-gray-400'>
                 <div className=" lg:p-4 sm:p-2 p-2 flex justify-between items-center">
